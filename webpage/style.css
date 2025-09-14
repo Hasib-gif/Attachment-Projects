@@ -76,3 +76,46 @@ body {
    color: #fff;
    border: none;
 }
+
+
+/* Sweet Details */
+
+.card{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.sweet{
+  width: 300px;
+  border-radius: 5px;
+  
+ 
+}
+.card-1{
+  border: 1px solid #e7e2e2;
+  border-radius: 8px;
+  padding: 8px;
+}
+.card-1 h2{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.card-1 button{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color:#c0392b ;
+  color: #ffff;
+  transition: 0.5s;
+ 
+}
+.card-1 button:hover{
+  background-color:#641a12 ;
+}
